@@ -1,0 +1,208 @@
+@media (max-width:450px){
+    .containerHeader span{
+        font-size: 11.5px;
+        font-weight: 600; 
+    }
+    h1{
+        font-size: small;  
+    }
+    h2{
+        font-size: 28px; 
+        line-height: 1;
+        margin-top:0.4em;
+    }
+     .containerLinks ul {
+       margin-top:0.4em;
+    }
+    .containerLinks ul li a{
+       font-size: 15px;
+    }
+    .containerHeader{
+        margin-top: 0!important;   
+    }
+    .mainContainer{
+        width: 70%;
+        margin:0 auto;
+    }
+    #allPage{
+        background: url("https://images.apple.com/v/home/df/images/heroes/today_small.jpg")center;
+        background-size: cover;
+        height: 464px;
+    }
+}
+
+@media (max-width:767px){
+    nav #navBigScreen{
+       display: none;
+    }
+    nav #navShortScreen{
+        display: flex;
+        justify-content: space-between;
+    }
+    nav #popNav{
+        display: none;
+    }
+    .containerHeader span{
+        font-size: 13.5px;
+        font-weight: 600; 
+    }
+    h1{
+        font-size: medium;  
+    }
+    h2{
+        font-size: 32px; 
+    }
+    .containerLinks ul li a{
+       font-size: 19px;  
+    }
+    .containerLinks ul li{
+        display: block;
+        width: 100%; 
+    }
+    .containerHeader{
+        margin-top: 1.3em;   
+    }
+    #allPage{
+        background: url("https://images.apple.com/v/home/df/images/heroes/today_square_large.jpg")center;
+        background-size: cover;
+        height: 544px;
+    }
+}
+
+@media (min-width:768px){
+    nav #navShortScreen{
+        display: none;
+    }
+    nav #popNav{
+        display: none;
+    }
+    .containerHeader{
+        margin-top: 2em;   
+    }
+    #allPage{
+        background: url("https://images.apple.com/v/home/df/images/heroes/today_xlarge.jpg")center;
+        background-size: cover;
+        height: 588px;
+    }
+    .containerPronote  ul li{
+        width: 25%;
+        border-top:2px solid white;
+        border-right: 2px solid white;
+        min-height: 200px;
+        box-sizing: border-box;
+    }
+    .containerPronote  ul li:last-child{
+        border-right: none;
+    }
+    
+    .containerPronote  ul .promoteIphone{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/how_to_shoot_on_iphone_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+    .containerPronote  ul .promoteWatch{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/watch_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+    .containerPronote  ul .promoteIpad{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/ipad_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+    .containerPronote  ul .promoteMacbook{
+        background-size: 360px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/macbook_pro_large.jpg");
+        height: 200px;
+        background-position: center;
+    }
+
+    
+}
+
+@media (max-width:1068px){
+    .containerPronote  ul li{
+        width: 50%;
+        border-top:2px solid white;
+        border-right: 2px solid white;
+        min-height: 200px;
+        box-sizing: border-box;
+    }
+    .containerPronote  ul li:last-child{
+        border-right: none;
+    }
+    
+    .containerPronote  ul .promoteIphone{
+        background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/how_to_shoot_on_iphone_medium.jpg");
+        background-position: center;
+
+    }
+    .containerPronote  ul .promoteWatch{
+         background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/watch_medium.jpg");
+        background-position: center;
+
+    }
+    .containerPronote  ul .promoteIpad{
+        background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/ipad_medium.jpg");
+        background-position: center;
+
+    }
+    .containerPronote  ul .promoteMacbook{
+        background-size: 640px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/macbook_pro_medium.jpg");
+        background-position: center;
+
+    }
+}
+
+@media(max-width:733px){
+        .containerPronote  ul li{
+        width: 100%;
+        border-top:2px solid white;
+        border-right: 2px solid white;
+        min-height: 200px;
+        box-sizing: border-box;
+    }
+    .containerPronote  ul li:last-child{
+        border-right: none;
+    }
+    
+    .containerPronote  ul .promoteIphone{
+        background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/how_to_shoot_on_iphone_small.jpg");
+
+    }
+    .containerPronote  ul .promoteWatch{
+         background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/watch_small.jpg");
+
+    }
+    .containerPronote  ul .promoteIpad{
+        background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/ipad_small.jpg");
+
+    }
+    .containerPronote  ul .promoteMacbook{
+        background-size: 736px 200px;
+        background-repeat: no-repeat;
+        background-image: url("https://images.apple.com/v/home/df/images/promos/macbook_pro_small.jpg");
+
+    }    
+}
