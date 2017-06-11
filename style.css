@@ -8,7 +8,9 @@ body{
     text-align: center;
 
 }
-
+.mainContainer{
+    background: url("img/watch_medium.jpg")center no-repeat;
+}
 nav{
     background-color: rgba(0,0,0,0.8);
     display: flex;
@@ -27,10 +29,15 @@ nav #navBigScreen{
 }
 nav #navBigScreen li{
     list-style: none;
-    display:inline-block;
-    margin: 0 20px;
+    color:white;
+    font-weight: 100;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 0.75rem;
 }
-
+nav #navBigScreen li:first-child{
+    margin:0;
+}
 nav #navShortScreen{
     margin:0;
     padding:0;
@@ -48,43 +55,14 @@ nav #navShortScreen li .iconBar{
 }
 
 /***body***/
-.containerHeader span{
-    font-size: 18.5px;
-    font-weight: 600; 
-}
-h2{
-    font-size: 47px;
-    font-weight: 500;
-    letter-spacing: -.01em;
-    margin:0;
-}
 h1{
-    margin:-5px 0 ;
-    font-weight: bold;
-    font-size:30px;
+    margin: -6px 0;
+    font-weight: 500;
+    font-size: 3rem;
+    letter-spacing: -1px;
 }
-.containerLinks{
-    display: flex;
-    flex-wrap: wrap;
-}
-.containerLinks ul{
-    margin:0;
-    padding:0;
-    width: 100%;
-}
-.containerLinks ul li{
-    display:inline-block; 
-    margin-right: 1em;
-
-}
-.containerLinks ul li a{
-    text-decoration: none;
-    color:inherit;
-    font-size: 23px;
-    font-weight: 300;
-}
-.containerLinks ul li a:hover{
-    color:#3c75d1;
+.containerHeader span img{
+    margin-top: -10px;
 }
 
 /***promote***/
