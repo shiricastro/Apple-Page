@@ -14,15 +14,14 @@
 }
 
 @media (max-width:767px){
-    nav #navBigScreen{
+    nav #navBigScreen,
+    .bigFoot{
        display: none;
     }
+    
     nav #navShortScreen{
         display: flex;
         justify-content: space-between;
-    }
-    nav #popNav{
-        display: none;
     }
     h1{
         font-size: xx-large;
@@ -42,7 +41,8 @@
 }
 
 @media (min-width:768px){
-    nav #navShortScreen{
+    nav #navShortScreen,
+    .shortFoot{
         display: none;
     }
     nav #popNav{

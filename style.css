@@ -72,7 +72,7 @@ h1{
     display: flex;
     flex-wrap: wrap;
     list-style: none;
-
+    border-bottom: 2px solid white;
 }
 
 /***bottom container***/
@@ -81,7 +81,6 @@ h1{
     width: 80%;
     display:flex;
     flex-wrap: wrap;
-    border-top:2px solid white;
     margin:0 auto;
 }
 .buttomContainer ul{
@@ -145,6 +144,74 @@ footer ul li a{
     text-decoration: none;
     color:inherit;
 }
+#popNav{
+    background-color:black;
+    padding:0;
+    margin-top:0;
+}
+#popNav li{    
+    list-style: none;
+    text-align: left;
+    color:white;
+    border-bottom: 1px solid rgba(242,242,242,.2);
+    padding: .7rem;
+    width: 80%;
+    font-size: 1.1rem;
+    font-weight: 100;
+    margin:0 auto;
+}
+#popNav li:hover{
+    color:lightgray;
+}
+#popNav li:first-child{    
+    padding-top:1.7rem;
+}
+#popNav li:last-child{    
+    padding-bottom:2rem;
+}
+#popNav{
+    display: none;
+}
 
+div.shortFoot{
+    text-align: left;
+    margin-left: 1.5rem;
+    font-size:.7rem;
+}
+div.shortFoot ul{        
+    display: none;    
+}
+div.shortFoot ul li{
+    list-style: none;
+    padding:5px;
+}
+div.shortFoot span{
+    font-size:.8rem;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0,0,0,0.2); 
+    padding-bottom:8px;
+    padding-top: 8px;
+}
+div.shortFoot span i{
+   padding-top:5px;
+   cursor: pointer;
+}
 
-
+div.shortFoot span:first-child{
+    padding-top:1.6rem;
+}
+div.shortFoot span:last-child{
+    display: block;
+    font-size:.7rem;
+    padding-top: 2rem;
+}
+footer.shortFoot{
+    width: 95%;
+    margin:0;
+}
+footer.shortFoot span{
+    padding-left: 1.5rem;
+    text-align: left;
+}
